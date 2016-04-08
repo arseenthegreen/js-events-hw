@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Js Events HW</title>
+	<link rel= "stylesheet" href="styles/main.css">
+	<style>
+		body {
+			font-family: "helvectica neue";
+			color: white;
+			padding: 5% 0 0 50%;
+		}
+
+		li input {
+			display: none;
+		}
+
+		li.edit span {
+			display: none;
+		}
+
+		li.edit input {
+			display: initial;
+			background-color: #330000;
+			color: white;
+		}
+
+	</style>
+</head>
+
+<body>
+	<header>
+		<p><img src="text.png"></p>
+		<h4>(Try clicking the types of tea below to suggest your own flavors!)</h4>
+	</header>	
+	
+	<main>
+		<ul id="checklist">
+			<li>
+				<span>green</span>
+				<input value="green" />
+			</li>
+			<li>
+				<span>vanilla</span>
+				<input value="vanilla" />
+			</li>
+			<li>
+				<span>chai</span>
+				<input value="chai" />
+			</li>						
+		</ul>
+	</main>
+	<script src="scripts/events.js"></script>
+</body>
+
+</html>
